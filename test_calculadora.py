@@ -6,7 +6,7 @@ def calc():
     return Calculadora()
 
 def test_suma_enteros(calc):
-    assert calc.suma(2, 3) == 5
+    assert calc.suma(2, 3) == 6 #aqui realice el cambio aproposito 
 
 def test_suma_negativos(calc):
     assert calc.suma(-2, -3) == -5
